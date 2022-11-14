@@ -20,7 +20,7 @@ export const useCharacters = ({ statusValue, genderValue }: UseCharacters) => {
       {
         getNextPageParam: (lastPage) => {
           const { next } = lastPage.info
-          return next !== null ? next : undefined
+          return next ?? undefined
         }
       }
     )
