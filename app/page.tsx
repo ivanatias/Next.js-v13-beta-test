@@ -1,6 +1,6 @@
 import StaticArticle from '@/components/static-article'
 import { firstArticle, secondArticle } from '@/constants/static-data'
-import styles from '@/styles/home.module.css'
+import styles from '@/styles/homepage.module.css'
 
 const HomePage = () => {
   return (
