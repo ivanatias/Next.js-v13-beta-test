@@ -1,0 +1,17 @@
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.articleImageContainer {
+  position: relative;
+  height: 400px;
+  margin-bottom: 24px;
+}
+
+.articleImageContainer > img {
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+}

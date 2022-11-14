@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container > h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: var(--accent-color);
+  text-align: center;
+}

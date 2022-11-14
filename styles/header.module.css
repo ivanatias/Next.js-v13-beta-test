@@ -1,0 +1,30 @@
+.header {
+  padding-block: 24px;
+  padding-inline: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar > h1 {
+  color: var(--white-color);
+}
+
+.logo {
+  object-fit: contain;
+}
+
+.navlinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navlinks > li {
+  list-style: none;
+  padding-inline: 12px;
+}

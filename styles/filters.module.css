@@ -1,0 +1,17 @@
+.filters,
+.filtersWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.filters {
+  gap: 20px;
+}
+
+.filtersWrapper {
+  gap: 12px;
+}
+
+.filters > h2 {
+  font-size: 32px;
+}
